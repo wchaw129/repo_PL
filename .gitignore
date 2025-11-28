@@ -1,20 +1,23 @@
-# Środowiska
-env/
-venv/
-project_venv/
+# Python cache
 __pycache__/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code
-.vscode/
-
-# Windows
-Thumbs.db
-Desktop.ini
-
-# Pythona
 *.pyc
 *.pyo
 *.pyd
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Temporary / test files
+testing.ipynb
